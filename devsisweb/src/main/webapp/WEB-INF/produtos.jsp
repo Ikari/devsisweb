@@ -17,19 +17,20 @@
     </head>
     <body>
         <div class="container">
-            
-            <div class="row">
-                <c:forEach var="produto" items="${produtos}" varStatus="stat">
+            <div class="starter-template">
+                <h1>Loja de Produtos Genéricos</h1>
+                <div class="row">
+                    <c:forEach var="produto" items="${produtos}" varStatus="stat">
 
-                        <div class="col-xs-1 col-md-4">
-                            <p>${produto.nome}</p>
-                            <p>${produto.descricao}</p>
-                            <p>${produto.preco}</p>
-                        </div>
-                        
-                </c:forEach>
-            </div>
-            
+                            <div class="col-md-4">
+                                <h2>${produto.nome}</h2>
+                                <p>${produto.descricao}</p>
+                                <p>${produto.preco}</p>
+                            </div>
+
+                    </c:forEach>
+                </div>
+            </div>            
         </div>
     </body>
 </html>

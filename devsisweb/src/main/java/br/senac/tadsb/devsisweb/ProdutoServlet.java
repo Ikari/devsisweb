@@ -38,6 +38,10 @@ public class ProdutoServlet extends HttpServlet {
         
         List<Produto> produtos = new ArrayList<>();
         
+        produtos.add(new Produto(1, "Notebook Dell Inspiron i15-5567-D30C", "Intel Core i5 8GB (AMD Radeon R7 M445 de 2GB) 1TB Tela LED 15,6\" Linux - Cinza", 2899.00));
+        produtos.add(new Produto(1, "IPhone 7", "32GB Dourado Desbloqueado IOS 10 Wi-fi + 4G Câmera 12MP - Apple", 3499.00));
+        produtos.add(new Produto(1, "Smartphone Moto G 5", "Dual Chip Android 7.0 Tela 5\" 32GB 4G Câmera 13MP", 1135.23));
+        produtos.add(new Produto(1, "Notebook Acer F5-573G-519X", "Intel Core I5 8GB (GeForce 940MX com 2GB) 2TB LED 15.6\" Windows 10 - Prata", 3339.00));
         produtos.add(new Produto(1, "Computador do Milhão", "Um computador zoado", 1000.00));
         produtos.add(new Produto(1, "Computador do Milhão", "Um computador zoado", 1000.00));
         produtos.add(new Produto(1, "Computador do Milhão", "Um computador zoado", 1000.00));
@@ -51,9 +55,7 @@ public class ProdutoServlet extends HttpServlet {
         produtos.add(new Produto(1, "Computador do Milhão", "Um computador zoado", 1000.00));
         produtos.add(new Produto(1, "Computador do Milhão", "Um computador zoado", 1000.00));
         produtos.add(new Produto(1, "Computador do Milhão", "Um computador zoado", 1000.00));
-        produtos.add(new Produto(1, "Computador do Milhão", "Um computador zoado", 1000.00));
-        produtos.add(new Produto(1, "Computador do Milhão", "Um computador zoado", 1000.00));
-        produtos.add(new Produto(1, "Computador do Milhão", "Um computador zoado", 1000.00));
+        produtos.add(new Produto(1, "Computador do Milhão", "Um computador zoado", 1000.00));        
         produtos.add(new Produto(1, "Computador do Milhão", "Um computador zoado", 1000.00));
         produtos.add(new Produto(1, "Computador do Milhão", "Um computador zoado", 1000.00));
         
